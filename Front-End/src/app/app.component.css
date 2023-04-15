@@ -1,0 +1,13 @@
+#conteiner{
+  width: 100vw;
+  height: 50vh;
+  background: #1C2433;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media only screen and (max-width: 600px) {
+  #conteiner{
+      height: 100vh;
+  }
+}

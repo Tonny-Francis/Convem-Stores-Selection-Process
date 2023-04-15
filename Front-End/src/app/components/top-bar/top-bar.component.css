@@ -1,0 +1,11 @@
+#top-bar{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-top: 90px;
+}
+@media only screen and (max-width: 600px) {
+  #top-bar{
+      display: none;
+  }
+}
